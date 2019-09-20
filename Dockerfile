@@ -7,7 +7,6 @@ RUN mkdir -p /app
 WORKDIR /app
 
 # Copy dependency definitions
-
 COPY package*.json /app/
  	 
 # Install dependecies
